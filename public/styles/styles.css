@@ -1,2 +1,4 @@
 body {
   font-family: arial, arial, helvetica, san-serif; }
+  body p {
+    font-size: 1.2em; }
