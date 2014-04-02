@@ -1,44 +1,11 @@
-/*
-Syntax error: Invalid CSS after "...ica, san-serif;": expected "}", was "<<<<<<< HEAD"
-        on line 3 of styles.scss
-
-1: body {
-2:   font-family: arial, arial, helvetica, san-serif;
-3: <<<<<<< HEAD
-4:   p {
-5: 	font-size: 1.2em;
-6:   }
-7: }
-8: =======
-
-Backtrace:
-styles.scss:3
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:1148:in `expected'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:1084:in `expected'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:1079:in `tok!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:535:in `block'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:528:in `ruleset'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:552:in `block_child'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:542:in `block_contents'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:82:in `stylesheet'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/scss/parser.rb:27:in `parse'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:342:in `_to_tree'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin.rb:81:in `update_stylesheets'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:443:in `watch_or_update'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/bin/scss:9:in `<top (required)>'
-C:/Ruby193/bin/scss:23:in `load'
-C:/Ruby193/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...ica, san-serif;\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 3 of styles.scss\A \A 1: body {\A 2:   font-family: arial, arial, helvetica, san-serif;\A 3: <<<<<<< HEAD\A 4:   p {\A 5: 	font-size: 1.2em;\A 6:   }\A 7: }\A 8: ======="; }
+body {
+  font-family: arial, arial, helvetica, san-serif; }
+  body p {
+    font-size: 1.2em; }
+  body h1 {
+    color: #ff0000; }
+  body .wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 32px; }
