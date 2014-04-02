@@ -1,0 +1,20 @@
+- var title = title || 'Super Awesome Goat Funtime';
+doctype
+html
+	head
+		title=title
+		link(href='/styles/styles.css', type='text/css', rel='stylesheet')
+	body
+		.wrapper
+			h1=title
+			block content
+				p some things about goats
+
+			#footer
+				hr
+				ul
+					li
+						a(href='/goats/list/') goat list
+					li
+						a(href='/goats/add/') add goats to list
+
