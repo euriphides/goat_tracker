@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	if(success)
+		h1 Success!
+		p
+			| Your Goat "
+			=goatName
+			| " has been added!
+	form(action='/goats/add/', method='post')
+		label Goat Name:
+			input(type="text", name="goatName")
+		input(type="submit", value="Add Goat!")
