@@ -1,2 +1,4 @@
 body {
   font-family: arial, arial, helvetica, san-serif; }
+  body h1 {
+    color: #ff0000; }
