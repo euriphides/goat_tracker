@@ -13,6 +13,10 @@ app.get('/goats/', function(req, res){
 	console.log(req.url);
 	res.render('layout');
 });
+app.get('/', function(req, res){
+	console.log(req.url);
+	res.render('index');
+});
 app.get('/goats/list/', function(req, res){
 	console.log(req.url);
 	res.render('goat_list', {
