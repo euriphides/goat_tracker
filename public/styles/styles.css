@@ -1,11 +1,17 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: arial, arial, helvetica, san-serif; }
   body p {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    padding: 8px 0; }
   body h1 {
-    color: #ff0000; }
+    color: #ff0000;
+    padding: 8px 0; }
   body .wrapper {
     width: 50%;
     margin: 0 auto;
-    background-color: #ccc;
+    background-color: #eee;
     padding: 32px; }

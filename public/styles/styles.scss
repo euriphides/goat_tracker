@@ -1,15 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: arial, arial, helvetica, san-serif;
   	p {
 	  font-size: 1.2em;
+	  padding: 8px 0;
 	}
   h1 {
 	color: #ff0000;
+	padding: 8px 0;
   }
   .wrapper {
 	width: 50%;
 	margin: 0 auto;
-	background-color: #ccc;
+	background-color: #eee;
 	padding: 32px;
   }
 }
