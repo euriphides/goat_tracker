@@ -19,4 +19,4 @@ body {
 .floatingGoat {
   float: left;
   margin: 0 10px 10px 0;
-  border: solid 1px blue; }
+  border: solid 1px #000; }
